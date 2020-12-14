@@ -1,0 +1,86 @@
+body {
+    background-image: url(/aprendizado/projeto-blog/imagens/fundo.png);
+}
+
+.capa {
+    width: 930px;
+}
+
+a {
+    color: rgb(26, 41, 41);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#menu {
+    width: 900px;
+    font-size: 20px;
+    border: 0pt;
+    background-color: rgba(245, 245, 219, 0.856);
+    padding: 15px;
+}
+
+#biogafria {
+    background-color: rgba(226, 226, 225, 0.774);
+    width: 900px;
+    padding: 15px;
+}
+
+
+/* formatando o site da biografia*/
+
+#menu-bio {
+    width: 900px;
+    font-size: 20px;
+    border: 0pt;
+    background-color: rgba(245, 245, 219, 0.856);
+    padding: 15px;
+}
+
+#text-bio {
+    background-color: rgba(226, 226, 225, 0.774);
+    width: 900px;
+    padding: 15px;
+}
+
+
+/* formataco da campanha*/
+
+#menu-camp {
+    width: 900px;
+    font-size: 20px;
+    border: 0pt;
+    background-color: rgba(245, 245, 219, 0.856);
+    padding: 15px;
+}
+
+#campanha {
+    background-color: rgba(226, 226, 225, 0.774);
+    width: 900px;
+    padding: 15px;
+}
+
+.bordas {
+    border: 10px;
+    border-style: groove;
+    border-color: rgba(250, 241, 231, 0.87);
+    padding: 15px;
+}
+
+
+/* formatando o contatos*/
+
+#menu-cont {
+    width: 900px;
+    font-size: 20px;
+    border: 0pt;
+    background-color: rgba(245, 245, 219, 0.856);
+    padding: 15px;
+}
+
+#cont {
+    background-color: rgba(226, 226, 225, 0.774);
+    width: 900px;
+    padding: 15px;
+}
