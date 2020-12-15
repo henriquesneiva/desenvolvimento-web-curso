@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Museu nacional</title>
+    <link rel="stylesheet" href="/projeto-museu/css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="/projeto-museu/css/normalize.css" type="text/css">
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- inicio do container-->
+
+        <header>
+            <div id="logo">
+                <h1><a href=""> museu nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">home</a> </li>
+                    <li><a href="">especificacoes</a> </li>
+                    <li><a href="">pesquisa</a> </li>
+                    <li><a href="">acervo</a> </li>
+                    <li><a href="">videos</a> </li>
+                    <li><a href="">fotos</a> </li>
+                    <li><a href="">contato</a> </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="principal">
+
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png">
+                </section>
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>faca uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>selecione uma data</legend>
+
+                            <label class="campo" for="data">data</label>
+                            <input type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                        </fieldset>
+                        <input class="botao" type="submit" value="verifiar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>imagens da galeria</h4>
+
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93">
+                    </a>
+
+                </section>
+
+            </aside>
+
+        </div>
+
+    </div>
+    <!-- fim do container-->
+
+
+</body>
+
+</html>
